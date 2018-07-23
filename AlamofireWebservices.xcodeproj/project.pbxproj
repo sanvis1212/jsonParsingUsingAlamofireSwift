@@ -12,6 +12,20 @@
 		2C02E2F920E2AD3F00E49CB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C02E2F720E2AD3F00E49CB7 /* Main.storyboard */; };
 		2C02E2FB20E2AD4800E49CB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C02E2FA20E2AD4800E49CB7 /* Assets.xcassets */; };
 		2C02E2FE20E2AD4800E49CB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C02E2FC20E2AD4800E49CB7 /* LaunchScreen.storyboard */; };
+		2CC99AD920EF5AC300D60A2B /* AlbumDataViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC99AD820EF5AC300D60A2B /* AlbumDataViewC.swift */; };
+		2CC99ADB20EF6E6100D60A2B /* ConstantTexts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC99ADA20EF6E6100D60A2B /* ConstantTexts.swift */; };
+		2CC99ADD20EF726D00D60A2B /* AlbumModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC99ADC20EF726D00D60A2B /* AlbumModel.swift */; };
+		2CC99ADF20EF75C900D60A2B /* AlbumDataViewC+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC99ADE20EF75C900D60A2B /* AlbumDataViewC+TableView.swift */; };
+		2CC99AE120EF767A00D60A2B /* AlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC99AE020EF767A00D60A2B /* AlbumTableViewCell.swift */; };
+		2CC99AEC20F329E000D60A2B /* PhotoViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC99AEB20F329E000D60A2B /* PhotoViewC.swift */; };
+		2CC99AEE20F32A3D00D60A2B /* PhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC99AED20F32A3D00D60A2B /* PhotoTableViewCell.swift */; };
+		2CC99AF020F32C6500D60A2B /* PhotoViewC+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC99AEF20F32C6500D60A2B /* PhotoViewC+TableView.swift */; };
+		2CC99AF420F3357800D60A2B /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC99AF320F3357800D60A2B /* PhotoModel.swift */; };
+		2CEA421D20EE26B9004C2649 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEA421C20EE26B9004C2649 /* UserTableViewCell.swift */; };
+		2CEA421F20EE2910004C2649 /* ViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEA421E20EE2910004C2649 /* ViewController+TableView.swift */; };
+		2CEA422120EE4EA6004C2649 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEA422020EE4EA6004C2649 /* UserModel.swift */; };
+		2CEA422320EE5D11004C2649 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEA422220EE5D11004C2649 /* Service.swift */; };
+		E88900323F8D9E48D9D142C4 /* Pods_AlamofireWebservices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F53B85B031A0B617242ED91B /* Pods_AlamofireWebservices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +36,22 @@
 		2C02E2FA20E2AD4800E49CB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C02E2FD20E2AD4800E49CB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C02E2FF20E2AD4800E49CB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CC99AD820EF5AC300D60A2B /* AlbumDataViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDataViewC.swift; sourceTree = "<group>"; };
+		2CC99ADA20EF6E6100D60A2B /* ConstantTexts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantTexts.swift; sourceTree = "<group>"; };
+		2CC99ADC20EF726D00D60A2B /* AlbumModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumModel.swift; sourceTree = "<group>"; };
+		2CC99ADE20EF75C900D60A2B /* AlbumDataViewC+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlbumDataViewC+TableView.swift"; sourceTree = "<group>"; };
+		2CC99AE020EF767A00D60A2B /* AlbumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTableViewCell.swift; sourceTree = "<group>"; };
+		2CC99AEB20F329E000D60A2B /* PhotoViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewC.swift; sourceTree = "<group>"; };
+		2CC99AED20F32A3D00D60A2B /* PhotoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTableViewCell.swift; sourceTree = "<group>"; };
+		2CC99AEF20F32C6500D60A2B /* PhotoViewC+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PhotoViewC+TableView.swift"; sourceTree = "<group>"; };
+		2CC99AF320F3357800D60A2B /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
+		2CEA421C20EE26B9004C2649 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		2CEA421E20EE2910004C2649 /* ViewController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+TableView.swift"; sourceTree = "<group>"; };
+		2CEA422020EE4EA6004C2649 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		2CEA422220EE5D11004C2649 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		F53B85B031A0B617242ED91B /* Pods_AlamofireWebservices.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlamofireWebservices.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEA6AAE64389FEF9645B1097 /* Pods-AlamofireWebservices.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamofireWebservices.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlamofireWebservices/Pods-AlamofireWebservices.debug.xcconfig"; sourceTree = "<group>"; };
+		FEF08A2DDD460C38516C08E3 /* Pods-AlamofireWebservices.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamofireWebservices.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlamofireWebservices/Pods-AlamofireWebservices.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E88900323F8D9E48D9D142C4 /* Pods_AlamofireWebservices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +71,8 @@
 			children = (
 				2C02E2F220E2AD3F00E49CB7 /* AlamofireWebservices */,
 				2C02E2F120E2AD3F00E49CB7 /* Products */,
+				5F6C3E3E1A761E0E9FE70576 /* Pods */,
+				B7760E37634FC4A8DB80F58C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +87,116 @@
 		2C02E2F220E2AD3F00E49CB7 /* AlamofireWebservices */ = {
 			isa = PBXGroup;
 			children = (
-				2C02E2F320E2AD3F00E49CB7 /* AppDelegate.swift */,
-				2C02E2F520E2AD3F00E49CB7 /* ViewController.swift */,
-				2C02E2F720E2AD3F00E49CB7 /* Main.storyboard */,
-				2C02E2FA20E2AD4800E49CB7 /* Assets.xcassets */,
+				2CC99AE920F27E2900D60A2B /* Classes */,
+				2CC99AE520F27D7D00D60A2B /* View */,
 				2C02E2FC20E2AD4800E49CB7 /* LaunchScreen.storyboard */,
 				2C02E2FF20E2AD4800E49CB7 /* Info.plist */,
+				2C02E2FA20E2AD4800E49CB7 /* Assets.xcassets */,
 			);
 			path = AlamofireWebservices;
+			sourceTree = "<group>";
+		};
+		2CC99AE220F27CBE00D60A2B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2CC99AEA20F283D200D60A2B /* Photos */,
+				2CC99AE420F27D1400D60A2B /* Album */,
+				2CC99AE320F27CF400D60A2B /* User */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2CC99AE320F27CF400D60A2B /* User */ = {
+			isa = PBXGroup;
+			children = (
+				2C02E2F520E2AD3F00E49CB7 /* ViewController.swift */,
+				2CEA421E20EE2910004C2649 /* ViewController+TableView.swift */,
+				2CEA422020EE4EA6004C2649 /* UserModel.swift */,
+				2CEA421C20EE26B9004C2649 /* UserTableViewCell.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		2CC99AE420F27D1400D60A2B /* Album */ = {
+			isa = PBXGroup;
+			children = (
+				2CC99AE020EF767A00D60A2B /* AlbumTableViewCell.swift */,
+				2CC99ADE20EF75C900D60A2B /* AlbumDataViewC+TableView.swift */,
+				2CC99AD820EF5AC300D60A2B /* AlbumDataViewC.swift */,
+				2CC99ADC20EF726D00D60A2B /* AlbumModel.swift */,
+			);
+			path = Album;
+			sourceTree = "<group>";
+		};
+		2CC99AE520F27D7D00D60A2B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2CC99AE620F27D9000D60A2B /* Stroyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2CC99AE620F27D9000D60A2B /* Stroyboard */ = {
+			isa = PBXGroup;
+			children = (
+				2C02E2F720E2AD3F00E49CB7 /* Main.storyboard */,
+			);
+			path = Stroyboard;
+			sourceTree = "<group>";
+		};
+		2CC99AE720F27DA300D60A2B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				2CEA422220EE5D11004C2649 /* Service.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		2CC99AE820F27E0500D60A2B /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				2CC99ADA20EF6E6100D60A2B /* ConstantTexts.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		2CC99AE920F27E2900D60A2B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2C02E2F320E2AD3F00E49CB7 /* AppDelegate.swift */,
+				2CC99AE820F27E0500D60A2B /* Constant */,
+				2CC99AE220F27CBE00D60A2B /* ViewController */,
+				2CC99AE720F27DA300D60A2B /* Service */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2CC99AEA20F283D200D60A2B /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				2CC99AEB20F329E000D60A2B /* PhotoViewC.swift */,
+				2CC99AED20F32A3D00D60A2B /* PhotoTableViewCell.swift */,
+				2CC99AEF20F32C6500D60A2B /* PhotoViewC+TableView.swift */,
+				2CC99AF320F3357800D60A2B /* PhotoModel.swift */,
+			);
+			path = Photos;
+			sourceTree = "<group>";
+		};
+		5F6C3E3E1A761E0E9FE70576 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FEA6AAE64389FEF9645B1097 /* Pods-AlamofireWebservices.debug.xcconfig */,
+				FEF08A2DDD460C38516C08E3 /* Pods-AlamofireWebservices.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B7760E37634FC4A8DB80F58C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F53B85B031A0B617242ED91B /* Pods_AlamofireWebservices.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +206,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C02E30220E2AD4800E49CB7 /* Build configuration list for PBXNativeTarget "AlamofireWebservices" */;
 			buildPhases = (
+				76EBB3352CC642AF0287B5AB /* [CP] Check Pods Manifest.lock */,
 				2C02E2EC20E2AD3E00E49CB7 /* Sources */,
 				2C02E2ED20E2AD3E00E49CB7 /* Frameworks */,
 				2C02E2EE20E2AD3E00E49CB7 /* Resources */,
+				6375A7783F319816B120DE7A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +267,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6375A7783F319816B120DE7A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AlamofireWebservices/Pods-AlamofireWebservices-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlamofireWebservices/Pods-AlamofireWebservices-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76EBB3352CC642AF0287B5AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlamofireWebservices-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2C02E2EC20E2AD3E00E49CB7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CC99ADB20EF6E6100D60A2B /* ConstantTexts.swift in Sources */,
 				2C02E2F620E2AD3F00E49CB7 /* ViewController.swift in Sources */,
+				2CC99ADF20EF75C900D60A2B /* AlbumDataViewC+TableView.swift in Sources */,
+				2CC99AF420F3357800D60A2B /* PhotoModel.swift in Sources */,
+				2CC99AE120EF767A00D60A2B /* AlbumTableViewCell.swift in Sources */,
+				2CEA422320EE5D11004C2649 /* Service.swift in Sources */,
+				2CEA421D20EE26B9004C2649 /* UserTableViewCell.swift in Sources */,
+				2CC99ADD20EF726D00D60A2B /* AlbumModel.swift in Sources */,
+				2CEA421F20EE2910004C2649 /* ViewController+TableView.swift in Sources */,
+				2CC99AD920EF5AC300D60A2B /* AlbumDataViewC.swift in Sources */,
+				2CC99AF020F32C6500D60A2B /* PhotoViewC+TableView.swift in Sources */,
+				2CEA422120EE4EA6004C2649 /* UserModel.swift in Sources */,
+				2CC99AEE20F32A3D00D60A2B /* PhotoTableViewCell.swift in Sources */,
 				2C02E2F420E2AD3F00E49CB7 /* AppDelegate.swift in Sources */,
+				2CC99AEC20F329E000D60A2B /* PhotoViewC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,9 +475,12 @@
 		};
 		2C02E30320E2AD4800E49CB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEA6AAE64389FEF9645B1097 /* Pods-AlamofireWebservices.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AlamofireWebservices/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -288,6 +488,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = brainmobi.com.AlamofireWebservices;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -295,9 +496,12 @@
 		};
 		2C02E30420E2AD4800E49CB7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEF08A2DDD460C38516C08E3 /* Pods-AlamofireWebservices.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AlamofireWebservices/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +509,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = brainmobi.com.AlamofireWebservices;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

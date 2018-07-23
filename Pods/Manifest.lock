@@ -1,0 +1,43 @@
+PODS:
+  - Alamofire (4.7.2)
+  - AlamofireImage (3.3.1):
+    - Alamofire (~> 4.5)
+  - ObjectMapper (3.2.0)
+  - PromiseKit (4.4.4):
+    - PromiseKit/Foundation (= 4.4.4)
+    - PromiseKit/QuartzCore (= 4.4.4)
+    - PromiseKit/UIKit (= 4.4.4)
+  - PromiseKit/CorePromise (4.4.4)
+  - PromiseKit/Foundation (4.4.4):
+    - PromiseKit/CorePromise
+  - PromiseKit/QuartzCore (4.4.4):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (4.4.4):
+    - PromiseKit/CorePromise
+  - SwiftyJSON (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - AlamofireImage (~> 3.3)
+  - ObjectMapper
+  - PromiseKit (~> 4.4.0)
+  - SwiftyJSON (~> 4.0.0-alpha.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireImage
+    - ObjectMapper
+    - PromiseKit
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  AlamofireImage: 3b35b586853abaf94ca1250f4e94cff3c21a4c0d
+  ObjectMapper: 5cccd2de6f253eda859df8116a5a554d9769e859
+  PromiseKit: 6178219c4c7457ae90d7d8b34b7ac5eb36916519
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+
+PODFILE CHECKSUM: 1a3806d2b4bb5c5f67458388fd3dad119c9cf685
+
+COCOAPODS: 1.5.3
